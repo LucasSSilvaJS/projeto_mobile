@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar pet</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="../index.html">
+                Petshop
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="buttons">
+            <div class="container">
+                <form id="pet-form" class="form">
+                    <h2 class="titulo">Cadastrar pet</h2>
+                    <input type="text" placeholder="Nome" id="nome" required>
+                    <select id="especie" required>
+                        <option disabled selected>Selecione uma espécie</option>
+                        <option value="Cão">Cão</option>
+                        <option value="Gato">Gato</option>
+                    </select>
+                    <input type="text" placeholder="Raça" id="raca" required>
+                    <input type="text" placeholder="Idade" id="idade" required>
+                    <select id="sexo" required>
+                        <option disabled selected>Selecione um sexo</option>
+                        <option value="Macho">Macho</option>
+                        <option value="Fêmea">Fêmea</option>
+                    </select>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="../js/submit.pet.js"></script>
+</body>
+
+</html>

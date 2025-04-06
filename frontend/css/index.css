@@ -1,0 +1,13 @@
+
+.buttons > .container > a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 200px;
+    padding: 20px 10px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    border: 2px solid #0d0d0d;
+    color: #0d0d0d;
+    border-radius: 10px;
+}

@@ -1,0 +1,128 @@
+main{
+    padding: 20px;
+}
+
+section div.container > h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.article-dono{
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.article-dono hr{
+    margin: 10px 0;
+}
+
+.article-dono > h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    min-width: 200px;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.article-dono > span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.article-dono h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul{
+    list-style: inside;
+}
+
+.atribuir-btn, .editar, .excluir{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1.5px solid #cdcdcd;
+    cursor: pointer;
+}
+
+.editar{
+    background-color: rgb(171, 187, 255);
+}
+
+.excluir{
+    background-color: rgb(255, 171, 171);
+}
+
+.atribuir-btn{
+    background-color: rgb(171, 255, 171);
+}
+
+.buttons{
+    align-self: center;
+}
+
+.pets{
+    margin: 0 auto;
+    min-width: 200px;
+}
+
+.pets > h4{
+    margin-bottom: 16px;
+}
+
+.pets > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+    list-style: none;
+}
+
+.pets > ul > li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+}
+
+.buttons-pets > button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px 8px;
+    border-radius: 20px;
+    border: 1.5px solid #cdcdcd;
+    cursor: pointer;
+}
+
+.editar-pet{
+    background-color: rgb(171, 187, 255);
+}
+
+.excluir-pet{
+    background-color: rgb(255, 171, 171);
+}
+
+.atribuir-pets{
+    align-self: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.atribuir-pets > select{
+    padding: 8px 16px;
+}
