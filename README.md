@@ -1,2 +1,2 @@
 ## Projeto Fullstack
-Petshot
+Petshop
